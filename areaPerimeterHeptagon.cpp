@@ -21,6 +21,7 @@ int main() {
     area = (7.0 / 4.0) * pow(side, 2) * radians;
     perimeter = (7 * side);
     // Output
+    std::cout << std::fixed << std::setprecision(2) << std::endl;
     std::cout << "The Area of the heptagon is: " << area << "cm^2" << std::endl;
     std::cout << "The Perimeter of the heptagon is: " << perimeter << " cm" <<
     std::endl;
